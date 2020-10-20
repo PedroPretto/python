@@ -30,3 +30,22 @@ print(lista)
 
 lista.reverse() #inverte ordem
 print(lista)
+
+lista.sort() #ordena
+print(lista)
+
+
+
+
+
+#Listas tridimensionais
+lista1 = [1,2,3]
+lista2 = [4,5,6]
+lista3 = [7,8,9]
+
+matrix = [lista1, lista2, lista3]
+print(matrix[1][1]) #acessando por indice
+
+first_col = [row[0] for row in matrix] #percorre linha por linha da matriz, pegando o indice de posicao 0 de cada um, formando a primeira coluna
+print(first_col)
+
